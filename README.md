@@ -21,20 +21,22 @@ It does not target Azure OpenAI, OpenRouter, or other OpenAI-compatible gateways
 
 ## Install
 
+From npm:
+
+```bash
+pi install npm:pi-openai-fast-mode
+```
+
+From GitHub:
+
+```bash
+pi install git:github.com/adstastic/pi-openai-fast-mode
+```
+
 From a local checkout:
 
 ```bash
 pi install ./pi-openai-fast-mode
-```
-
-Or add it to `~/.pi/agent/settings.json`:
-
-```json
-{
-  "packages": [
-    "git:github.com/adstastic/pi-openai-fast-mode"
-  ]
-}
 ```
 
 If you use `@anthnykr/pi-codex-fast-mode`, remove it first so `/fast` is not registered twice.
