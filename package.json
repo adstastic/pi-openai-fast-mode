@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adstastic/pi-openai-fast-mode.git"
+    "url": "git+https://github.com/adstastic/pi-openai-fast-mode.git"
   },
   "homepage": "https://github.com/adstastic/pi-openai-fast-mode#readme",
   "bugs": {
