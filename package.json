@@ -1,0 +1,44 @@
+{
+  "name": "pi-openai-fast-mode",
+  "version": "0.1.0",
+  "description": "Pi extension that toggles OpenAI priority service tier for OpenAI models.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adstastic/pi-openai-fast-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adstastic/pi-openai-fast-mode/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "openai",
+    "fast-mode",
+    "priority"
+  ],
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "tsconfig.json"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.77.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
